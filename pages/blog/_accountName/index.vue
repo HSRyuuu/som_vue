@@ -4,7 +4,7 @@
       <blog-member :account-name="accountName"></blog-member>
       <div class="blog-container">
         <div class="section-a">
-            <blog-tags></blog-tags>
+            <blog-tags :account-name="accountName"></blog-tags>
         </div>
         <div class="section-b">
           <blog-posts></blog-posts>
