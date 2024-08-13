@@ -2,12 +2,13 @@
   <div>
     <div>
       <blog-member :account-name="accountName"></blog-member>
+
       <div class="blog-container">
         <div class="section-a">
             <blog-tags :account-name="accountName"></blog-tags>
         </div>
         <div class="section-b">
-          <blog-posts></blog-posts>
+          <blog-posts :account-name="accountName"></blog-posts>
         </div>
       </div>
     </div>
